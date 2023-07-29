@@ -1,0 +1,88 @@
+<sync rows="250">
+	<tracks>
+		<track name="scene">
+			<key value="0" interpolation="0" row="0"/>
+			<key value="1" interpolation="0" row="40"/>
+			<key value="2" interpolation="0" row="72"/>
+			<key value="3" interpolation="0" row="88"/>
+			<key value="3" interpolation="0" row="96"/>
+			<key value="4" interpolation="0" row="113"/>
+			<key value="5" interpolation="3" row="184"/>
+			<key value="6" interpolation="0" row="216"/>
+		</track>
+		<track name="sphere-rotation">
+			<key value="43534" interpolation="0" row="113"/>
+			<key value="345" interpolation="0" row="115"/>
+			<key value="124" interpolation="0" row="117"/>
+			<key value="435" interpolation="0" row="119"/>
+			<key value="1" interpolation="0" row="121"/>
+			<key value="234" interpolation="0" row="123"/>
+			<key value="123" interpolation="0" row="127"/>
+			<key value="435" interpolation="0" row="129"/>
+			<key value="-100" interpolation="0" row="133"/>
+			<key value="34" interpolation="0" row="136"/>
+			<key value="234" interpolation="0" row="139"/>
+			<key value="234" interpolation="0" row="142"/>
+			<key value="122324" interpolation="0" row="146"/>
+			<key value="435" interpolation="0" row="148"/>
+			<key value="34" interpolation="0" row="151"/>
+			<key value="43534" interpolation="0" row="152"/>
+			<key value="345" interpolation="0" row="154"/>
+			<key value="124" interpolation="0" row="156"/>
+			<key value="435" interpolation="0" row="158"/>
+			<key value="1" interpolation="0" row="160"/>
+			<key value="234" interpolation="0" row="162"/>
+			<key value="123" interpolation="0" row="166"/>
+			<key value="435" interpolation="0" row="168"/>
+			<key value="-100" interpolation="0" row="172"/>
+			<key value="34" interpolation="0" row="175"/>
+			<key value="234" interpolation="0" row="178"/>
+			<key value="234" interpolation="0" row="181"/>
+			<key value="122324" interpolation="0" row="185"/>
+			<key value="435" interpolation="0" row="187"/>
+			<key value="34" interpolation="0" row="190"/>
+		</track>
+		<track name="box-rotation">
+			<key value="0" interpolation="0" row="113"/>
+			<key value="324" interpolation="0" row="184"/>
+			<key value="34" interpolation="0" row="191"/>
+			<key value="324" interpolation="0" row="194"/>
+			<key value="-1000" interpolation="0" row="197"/>
+			<key value="-100" interpolation="0" row="200"/>
+			<key value="324" interpolation="0" row="201"/>
+			<key value="1" interpolation="0" row="202"/>
+			<key value="345" interpolation="0" row="203"/>
+			<key value="45" interpolation="0" row="204"/>
+			<key value="342" interpolation="0" row="205"/>
+			<key value="343" interpolation="0" row="206"/>
+			<key value="2341" interpolation="0" row="207"/>
+			<key value="34" interpolation="0" row="208"/>
+			<key value="4" interpolation="0" row="209"/>
+			<key value="234" interpolation="0" row="210"/>
+			<key value="45" interpolation="0" row="211"/>
+			<key value="-12" interpolation="0" row="212"/>
+			<key value="23" interpolation="0" row="213"/>
+			<key value="4" interpolation="0" row="214"/>
+			<key value="-50" interpolation="0" row="215"/>
+		</track>
+		<track name="updown1">
+			<key value="-100" interpolation="0" row="40"/>
+			<key value="-100" interpolation="0" row="64"/>
+		</track>
+		<track name="sidetoside1">
+			<key value="-100" interpolation="0" row="40"/>
+			<key value="-200" interpolation="0" row="64"/>
+			<key value="1000" interpolation="1" row="88"/>
+			<key value="-2000" interpolation="0" row="112"/>
+		</track>
+		<track name="size1"/>
+		<track name="updown2">
+			<key value="-100" interpolation="0" row="64"/>
+		</track>
+		<track name="sidetoside2">
+			<key value="-1000" interpolation="0" row="40"/>
+			<key value="20" interpolation="0" row="64"/>
+		</track>
+	</tracks>
+	<bookmarks/>
+</sync>
