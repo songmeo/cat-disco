@@ -14,7 +14,7 @@ void setup() {
    smooth();
   
    moonlander = Moonlander.initWithSoundtrack(this, "catdisco.mp3", 140, 4);
-   moonlander.start("localhost", 1338, "demo1.rocket");
+   moonlander.start("localhost", 1338, "discocat.rocket");
    
    //videoExport = new VideoExport(this);
    //videoExport.startMovie();  
@@ -36,7 +36,7 @@ void draw(){
 
     if(scene == 0){
       PImage img;
-      img = loadImage("warning.png");
+      img = loadImage("data/warning.png");
       image(img, -400, -400);
     } else if(scene == 1){  
      float updown1 = (float) moonlander.getValue("updown1"); // Get value from rocket
@@ -45,10 +45,10 @@ void draw(){
      float sidetoside2 = (float) moonlander.getValue("sidetoside2"); // Get value from rocket
       
      PImage img;
-     img = loadImage("sk4155-image-kwvulaam.jpg"); 
+     img = loadImage("data/sk4155-image-kwvulaam.jpg"); 
      image(img,-600,-height/2);
      PImage img2;
-     img2 = loadImage("image-from-rawpixel-id-8153017-png.png"); 
+     img2 = loadImage("data/image-from-rawpixel-id-8153017-png.png"); 
      image(img2,sidetoside1,updown1+random(0,20));
      image(img2,sidetoside2,updown2+random(0,20));
      
@@ -57,7 +57,7 @@ void draw(){
      
     } else if (scene == 2) {
      PImage img;
-     img = loadImage("sk4155-image-kwvulaam.jpg"); 
+     img = loadImage("data/sk4155-image-kwvulaam.jpg"); 
      image(img,-600,-height/2);
      
      fill(0);
@@ -82,7 +82,7 @@ void draw(){
       fill(255, 153, 255);
       text("CAT", -300, -200);  // Specify a z-axis value
       PImage img2;
-      img2 = loadImage("image-from-rawpixel-id-8153017-png.png"); 
+      img2 = loadImage("data/image-from-rawpixel-id-8153017-png.png"); 
       image(img2,sidetoside1-190,-170);
       image(img2,sidetoside1+1050,-170);
 
@@ -95,13 +95,13 @@ void draw(){
       rotateZ(rotation/4);
       sphere(random(100, 150));
       PImage img3;
-      img3 = loadImage("cool_cat.jpg");
+      img3 = loadImage("data/cool_cat.jpg");
       translate(232, 192, 0);
       image(img3, -img3.width / 2, -img3.height / 2);
       
     } else if (scene == 5) {
       PImage img4;
-      img4 = loadImage("tired_cat.png");
+      img4 = loadImage("data/tired_cat.png");
       //translate(0, 0, 0);
       image(img4, -width / 2 + 200, - height / 2 + 210, img4.width / 3, img4.height / 3);
       noFill();
